@@ -9,6 +9,7 @@ from wordcloud import WordCloud
 import numpy as np
 from PIL import Image
 
+
 # 为该项目创建一个类，命名nezha
 # 该类有三个方法，分别是爬虫、分词、词云
 class nezha():
