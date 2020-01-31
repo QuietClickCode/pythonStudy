@@ -25,3 +25,8 @@ b" "前缀表示：后面字符串是bytes 类型。
 2020年1月31日17:41:32
 
 UnicodeDecodeError: 'gbk' codec can't decode byte 0xa7 in position 22: illegal multibyte sequence
+用idea改编码格式
+
+
+__init__
+强行装个吧：定义类的时候，若是添加__init__方法，那么在创建类的实例的时候，实例会自动调用这个方法，一般用来对实例的属性进行初使化。
