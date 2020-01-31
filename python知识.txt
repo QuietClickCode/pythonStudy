@@ -21,3 +21,7 @@ b" "前缀表示：后面字符串是bytes 类型。
 作用：
 
 后面字符串以 Unicode 格式 进行编码，一般用在中文字符串前面，防止因为源码储存格式问题，导致再次使用时出现乱码。
+
+2020年1月31日17:41:32
+
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa7 in position 22: illegal multibyte sequence
