@@ -16,7 +16,7 @@ rank = 100
 #dict() 函数用于创建一个字典。
 novels_count = dict()
 # r"" 的作用是去除转义字符.
-p = re.compile(r'<<.+?>>')# 正则匹配被《》括起来的书名
+p = re.compile(r'《.+?》')# 正则匹配被《》括起来的书名
 while True:
     print(f'答案数{offset} 到 {offset + interval}')
 # 知乎获取回答分页API
