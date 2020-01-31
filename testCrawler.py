@@ -60,7 +60,7 @@ class nezha():
         times = []
         comment_texts = []
         
-        for i in range(0, 1, 20):
+        for i in range(0, 500, 20):
             
             data = self.session.get(self.url_comment % i, headers=self.headers)
             
